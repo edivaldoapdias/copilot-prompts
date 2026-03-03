@@ -514,3 +514,33 @@ newsletterForm?.addEventListener('submit', (e) => {
 const backToTop = document.getElementById('backToTop');
 backToTop?.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
 ``
+/*🧪 Como testar localmente
+
+Crie uma pasta e salve index.html, styles.css, app.js (e imagens logo.svg, hero.jpg se quiser).
+Abra o index.html no navegador.
+Opcional: sirva com um servidor estático (VS Code Live Server).
+
+
+🎨 Como adaptar para qualquer empresa
+
+Branding rápido: ajuste variáveis no :root (--primary, --accent) e troque logo/título.
+Conteúdo: edite textos das seções e listas de serviços/depoimentos.
+Contatos: troque copy do formulário e integre com um endpoint (ex.: /api/contact).
+SEO: atualize <title>, <meta name="description">, og: tags e canonical.
+
+
+♿ Acessibilidade & SEO (já incluídos)
+
+HTML semântico (header, main, section, nav, footer).
+ARIA mínima em carrossel, status de formulários e botões.
+Foco navegável, skip link, contraste alto, aria-live para mensagens.
+SEO: metatags, headings hierárquicos, alt nas imagens.
+
+
+🚀 Próximos passos (se quiser evoluir)
+
+Formulário com backend (serverless: Netlify Functions / Vercel).
+Analytics & eventos (ex.: Matomo/GA4).
+PWA (manifest + service worker) para experiência offline.
+Testes (Lighthouse, Axe, PageSpeed).
+Roteamento client-side (versão React/Vue).*/
